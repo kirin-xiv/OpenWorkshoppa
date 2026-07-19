@@ -2,7 +2,7 @@
   <PropertyGroup>
     <AssemblyName>LLib</AssemblyName>
     <Version>1.0.1.1</Version>
-    <Authors>vera.lyn; OpenWorkshoppa contributors</Authors>
+    <Authors>Unknown, OpenWorkshoppa contributors</Authors>
     <Description>Recovered support library used by Workshoppa.</Description>
     <TargetFramework>net10.0-windows7.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

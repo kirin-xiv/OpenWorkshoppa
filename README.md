@@ -2,7 +2,7 @@
 
 Community-maintained recovery of Workshoppa, a Dalamud plugin for assisting with Company Workshop turn-ins.
 
-This repository was reconstructed from the released `9.2.0.0` plugin binary and ported to Dalamud API 15. It retains attribution to the original author, vera.lyn. The original source licence was not available in the recovered distribution, so no new licence is asserted here.
+This repository was reconstructed from a released `9.2.0.0` plugin binary and ported to Dalamud API 15. Original authorship and source licensing could not be verified from the recovered distribution, so no new licence is asserted here.
 
 ## Development
 

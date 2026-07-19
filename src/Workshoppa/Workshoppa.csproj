@@ -4,8 +4,8 @@
     <Version>9.2.0.1</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
-    <Authors>vera.lyn; OpenWorkshoppa contributors</Authors>
-    <Author>vera.lyn; OpenWorkshoppa contributors</Author>
+    <Authors>Unknown, OpenWorkshoppa contributors</Authors>
+    <Author>Unknown, OpenWorkshoppa contributors</Author>
     <Name>Workshoppa</Name>
     <Punchline>Better Company Workshop Turn-In</Punchline>
     <Description>Better Company Workshop Turn-In</Description>
