@@ -1,7 +1,7 @@
 <Project Sdk="Dalamud.NET.Sdk/15.0.0">
   <PropertyGroup>
     <AssemblyName>Workshoppa</AssemblyName>
-    <Version>9.2.0.1</Version>
+    <Version>9.2.0.2</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
     <Authors>Unknown, OpenWorkshoppa contributors</Authors>
@@ -9,7 +9,7 @@
     <Name>Workshoppa</Name>
     <Punchline>Better Company Workshop Turn-In</Punchline>
     <Description>Better Company Workshop Turn-In</Description>
-    <Changelog>Recovered source and ported to Dalamud API 15.</Changelog>
+    <Changelog>Fix compatibility with Dalamud API 15 window persistence.</Changelog>
     <PackageProjectUrl>https://github.com/kirin-xiv/OpenWorkshoppa</PackageProjectUrl>
     <RepoUrl>https://github.com/kirin-xiv/OpenWorkshoppa</RepoUrl>
     <ApplicableVersion>any</ApplicableVersion>

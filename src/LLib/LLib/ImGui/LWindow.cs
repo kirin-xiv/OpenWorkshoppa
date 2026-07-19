@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Windowing;
 
@@ -33,39 +32,15 @@ public abstract class LWindow : Window
 		}
 	}
 
-	protected new bool IsPinned
-	{
-		get
-		{
-			return InternalIsPinned(this);
-		}
-		set
-		{
-			InternalIsPinned(this) = value;
-		}
-	}
-
-	protected new bool IsClickthrough
-	{
-		get
-		{
-			return InternalIsClickthrough(this);
-		}
-		set
-		{
-			InternalIsClickthrough(this) = value;
-		}
-	}
-
 	protected int? Alpha
 	{
 		get
 		{
-			return (int?)(100000f * InternalAlpha(this));
+			return base.BgAlpha is float alpha ? (int)(100000f * alpha) : null;
 		}
 		set
 		{
-			InternalAlpha(this) = (float?)value / 100000f;
+			base.BgAlpha = value is int alpha ? alpha / 100000f : null;
 		}
 	}
 
@@ -177,12 +152,4 @@ public abstract class LWindow : Window
 		}
 	}
 
-	[UnsafeAccessor(UnsafeAccessorKind.Field, Name = "internalIsPinned")]
-	private static extern ref bool InternalIsPinned(Window @this);
-
-	[UnsafeAccessor(UnsafeAccessorKind.Field, Name = "internalIsClickthrough")]
-	private static extern ref bool InternalIsClickthrough(Window @this);
-
-	[UnsafeAccessor(UnsafeAccessorKind.Field, Name = "internalAlpha")]
-	private static extern ref float? InternalAlpha(Window @this);
 }

@@ -3,10 +3,10 @@
   "Name": "Workshoppa",
   "Punchline": "Better Company Workshop Turn-In",
   "Description": "Better Company Workshop Turn-In",
-  "Changelog": "Recovered source and ported to Dalamud API 15.",
+  "Changelog": "Fix compatibility with Dalamud API 15 window persistence.",
   "Tags": [],
   "InternalName": "Workshoppa",
-  "AssemblyVersion": "9.2.0.1",
+  "AssemblyVersion": "9.2.0.2",
   "RepoUrl": "https://github.com/kirin-xiv/OpenWorkshoppa",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 15
