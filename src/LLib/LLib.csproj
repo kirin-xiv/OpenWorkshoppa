@@ -1,0 +1,17 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>LLib</AssemblyName>
+    <Version>1.0.1.1</Version>
+    <Authors>vera.lyn; OpenWorkshoppa contributors</Authors>
+    <Description>Recovered support library used by Workshoppa.</Description>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <IsPackable>false</IsPackable>
+    <DalamudApiLevel>15</DalamudApiLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ECommons" Version="3.1.0.1" />
+  </ItemGroup>
+</Project>

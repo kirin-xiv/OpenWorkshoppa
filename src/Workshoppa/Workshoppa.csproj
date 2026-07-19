@@ -1,0 +1,27 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>Workshoppa</AssemblyName>
+    <Version>9.2.0.1</Version>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <Authors>vera.lyn; OpenWorkshoppa contributors</Authors>
+    <Author>vera.lyn; OpenWorkshoppa contributors</Author>
+    <Name>Workshoppa</Name>
+    <Punchline>Better Company Workshop Turn-In</Punchline>
+    <Description>Better Company Workshop Turn-In</Description>
+    <Changelog>Recovered source and ported to Dalamud API 15.</Changelog>
+    <PackageProjectUrl>https://github.com/kirin-xiv/OpenWorkshoppa</PackageProjectUrl>
+    <RepoUrl>https://github.com/kirin-xiv/OpenWorkshoppa</RepoUrl>
+    <ApplicableVersion>any</ApplicableVersion>
+    <IsPackable>false</IsPackable>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LLib\LLib.csproj" />
+    <PackageReference Include="ECommons" Version="3.1.0.1" />
+  </ItemGroup>
+
+</Project>

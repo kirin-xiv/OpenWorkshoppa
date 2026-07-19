@@ -1,0 +1,3 @@
+<Project>
+  <!-- LLib is a support library and must not be emitted as a standalone plugin. -->
+</Project>
